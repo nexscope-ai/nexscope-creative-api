@@ -1,0 +1,508 @@
+{
+  "banana-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "1K",
+      "aspectRatio": "1:1"
+    }
+  },
+  "banana-pro-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "2K",
+      "aspectRatio": "1:1"
+    }
+  },
+  "banana-2-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "2K",
+      "aspectRatio": "1:1"
+    }
+  },
+  "banana-2-lite-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "1K",
+      "aspectRatio": "1:1"
+    }
+  },
+  "wan-2-7-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "1K",
+      "aspectRatio": "1:1"
+    }
+  },
+  "seedream-5-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "1K",
+      "aspectRatio": "1:1"
+    }
+  },
+  "seedream-5-pro-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "1K",
+      "aspectRatio": "1:1"
+    }
+  },
+  "gpt-image-2-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "extraParams": {
+      "resolution": "2K",
+      "aspectRatio": "1:1",
+      "quality": "high"
+    }
+  },
+  "ai-draw-edit-image-generation": {
+    "imageUrls": [
+      "https://example.com/product.jpg"
+    ],
+    "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+    "outputNum": 1,
+    "resolution": "1K",
+    "aspectRatio": "1:1"
+  },
+  "seedance-2-0-video-generation": {
+    "videoTime": 8,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "720P",
+    "imageUrl": "https://example.com/source-image.jpg",
+    "imageList": [
+      "https://example.com/product.jpg",
+      "https://example.com/ref-2.jpg"
+    ],
+    "video": [
+      "https://example.com/reference-video.mp4"
+    ],
+    "aspectRatio": "16:9"
+  },
+  "seedance-2-0-fast-video-generation": {
+    "videoTime": 8,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "720P",
+    "imageUrl": "https://example.com/source-image.jpg",
+    "imageList": [
+      "https://example.com/product.jpg",
+      "https://example.com/ref-2.jpg"
+    ],
+    "video": [
+      "https://example.com/reference-video.mp4"
+    ],
+    "aspectRatio": "16:9"
+  },
+  "seedance-2-0-mini-video-generation": {
+    "videoTime": 8,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "720P",
+    "imageUrl": "https://example.com/source-image.jpg",
+    "imageList": [
+      "https://example.com/product.jpg",
+      "https://example.com/ref-2.jpg"
+    ],
+    "video": [
+      "https://example.com/reference-video.mp4"
+    ],
+    "aspectRatio": "16:9"
+  },
+  "seedance-2-5-video-generation": {
+    "videoTime": 5,
+    "prompt": "Create a clean ecommerce product video with gentle camera movement and consistent product details.",
+    "imageList": [
+      "https://example.com/product.jpg"
+    ],
+    "resolution": "480p",
+    "aspectRatio": "9:16"
+  },
+  "kling-2-6-video-generation": {
+    "videoTime": 5,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "1080P",
+    "imageUrl": "https://example.com/source-image.jpg",
+    "imageList": [
+      "https://example.com/product.jpg",
+      "https://example.com/ref-2.jpg"
+    ],
+    "aspectRatio": "16:9",
+    "lastFrameImageUrl": "https://example.com/last-frame.jpg",
+    "voice": false
+  },
+  "kling-3-omni-video-generation": {
+    "videoTime": 10,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "1080P",
+    "imageUrl": "https://example.com/source-image.jpg",
+    "imageList": [
+      "https://example.com/product.jpg",
+      "https://example.com/ref-2.jpg"
+    ],
+    "aspectRatio": "16:9"
+  },
+  "wan-2-6-video-generation": {
+    "videoTime": 10,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "1080P",
+    "imageUrl": "https://example.com/source-image.jpg"
+  },
+  "hailuo-2-3-video-generation": {
+    "videoTime": 6,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "1080P",
+    "imageUrl": "https://example.com/source-image.jpg"
+  },
+  "happy-horse-2-video-generation": {
+    "videoTime": 10,
+    "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+    "resolution": "1080P",
+    "imageList": [
+      "https://example.com/product.jpg",
+      "https://example.com/ref-2.jpg"
+    ],
+    "aspectRatio": "16:9"
+  },
+  "ai-model-swap": {
+    "imageUrl": "https://example.com/source-image.jpg",
+    "modelHeadImageUrl": "https://example.com/model-reference.jpg",
+    "imageSegUrl": "https://example.com/mask.png",
+    "sceneImgUrl": "https://example.com/scene.jpg",
+    "sceneStrength": 0.6,
+    "modelPrompt": "natural studio model",
+    "customPrompt": "clean ecommerce catalog photo",
+    "customNegPrompt": "blur, distorted hands",
+    "genOriRes": true,
+    "realModel": true,
+    "outputNum": 1
+  },
+  "ai-model-swap-2-0": {
+    "imageUrl": "https://example.com/source-image.jpg",
+    "modelImageUrl": "https://example.com/model-reference.jpg",
+    "outputNum": 1,
+    "imageSegUrl": "https://example.com/mask.png",
+    "sceneImgUrl": "https://example.com/scene.jpg",
+    "sceneStrength": 0.6,
+    "genOriRes": true,
+    "realModel": true
+  },
+  "ai-model-scene-background-replacement": {
+    "imageUrl": "https://example.com/model-reference.jpg",
+    "sceneImgUrl": "https://example.com/scene.jpg",
+    "scenePrompt": "bright studio showroom",
+    "imageSegUrl": "https://example.com/mask.png",
+    "sceneStrength": 0.7,
+    "genOriRes": true,
+    "realModel": true,
+    "outputNum": 1
+  },
+  "ai-clothes-changer-for-tops-bottoms": {
+    "modelImageUrl": "https://example.com/model-reference.jpg",
+    "upperOriginUrl": "https://example.com/top.jpg",
+    "downOriginUrl": "https://example.com/bottom.jpg",
+    "upperImageUrl": "https://example.com/top-mask.png",
+    "downImageUrl": "https://example.com/bottom-mask.png",
+    "modelMaskImageUrl": "https://example.com/mask.png",
+    "outputNum": 1
+  },
+  "ai-suit-virtual-try-on": {
+    "suitOriginUrl": "https://example.com/suit.jpg",
+    "modelImageUrl": "https://example.com/model-reference.jpg",
+    "suitImageUrl": "https://example.com/suit-mask.png",
+    "modelMaskImageUrl": "https://example.com/mask.png",
+    "outputNum": 1
+  },
+  "virtual-try-on": {
+    "imageUrl": "https://example.com/model-reference.jpg",
+    "targetOriginUrl": "https://example.com/product.jpg",
+    "targetMaskUrl": "https://example.com/mask.png",
+    "productCategory": "hat",
+    "outputNum": 1
+  },
+  "product-replacement": {
+    "imageUrl": "https://example.com/source-image.jpg",
+    "targetOriginUrl": "https://example.com/product.jpg",
+    "sourceImageUrl": "https://example.com/source-product.jpg",
+    "targetImageUrl": "https://example.com/target-product.png",
+    "denoiseStrength": 0.55,
+    "imageOutputWidth": 1024,
+    "imageOutputHeight": 1024,
+    "outputNum": 1
+  },
+  "product-scene-variations": {
+    "imageUrl": "https://example.com/product.jpg",
+    "segImageUrl": "https://example.com/mask.png",
+    "strength": 0.65,
+    "prompt": "modern kitchen countertop",
+    "imageOutputWidth": 1024,
+    "imageOutputHeight": 1024,
+    "provider": "default",
+    "outputNum": 1
+  },
+  "ai-background-generator": {
+    "prompt": "a premium phone case on a clean marble desk",
+    "imageUrl": "https://example.com/product.jpg",
+    "style": "commercial photography",
+    "scale": "1:1",
+    "outputNum": 1
+  },
+  "similar-image-variations": {
+    "imageUrl": "https://example.com/product.jpg",
+    "prompt": "same product, brighter background",
+    "weight": 0.75,
+    "width": 1024,
+    "height": 1024,
+    "scale": "1:1",
+    "outputNum": 1
+  },
+  "background-remover": {
+    "imageUrl": "https://example.com/product.jpg",
+    "subType": "product",
+    "clothClass": "dress"
+  },
+  "fine-cutout-image-segmentation": {
+    "imageUrl": "https://example.com/product.jpg",
+    "pointList": [
+      {
+        "x": 120,
+        "y": 180,
+        "isSelect": true
+      }
+    ],
+    "scoreUrl": "https://example.com/score.png",
+    "featureUrl": "https://example.com/feature.bin"
+  },
+  "image-upscale": {
+    "imageUrl": "https://example.com/product.jpg",
+    "magnification": 2,
+    "enhanceQuality": true
+  },
+  "smart-image-outpainting": {
+    "imageUrl": "https://example.com/product.jpg",
+    "width": 1200,
+    "height": 900,
+    "prompt": "extend the clean studio background",
+    "outputNum": 1
+  },
+  "image-translation": {
+    "imageUrl": "https://example.com/product.jpg",
+    "translationPlatform": "google",
+    "sourceLanguage": "en",
+    "targetLanguage": "de"
+  },
+  "ai-hand-repair": {
+    "imageUrl": "https://example.com/model-reference.jpg",
+    "personType": "model",
+    "maskUrl": "https://example.com/mask.png",
+    "outputNum": 1
+  },
+  "image-inpainting": {
+    "imageUrl": "https://example.com/product.jpg",
+    "prompt": "remove scratches and keep the product realistic",
+    "maskUrl": "https://example.com/mask.png",
+    "outputNum": 1
+  },
+  "print-pattern-extraction": {
+    "imageUrl": "https://example.com/product.jpg"
+  },
+  "object-eraser-image-object-removal": {
+    "imageUrl": "https://example.com/product.jpg",
+    "maskImageUrl": "https://example.com/mask.png"
+  },
+  "jewelry-text-design": {
+    "fontname": "Arial",
+    "fontSize": 48,
+    "prompt": "LOVE",
+    "left": "",
+    "right": ""
+  },
+  "handheld-product-mockup": {
+    "imageUrl": "https://example.com/model-reference.jpg",
+    "targetOriginUrl": "https://example.com/product.jpg",
+    "targetMaskUrl": "https://example.com/mask.png",
+    "outputNum": 1
+  },
+  "image-captioning": {
+    "type": "product",
+    "imageUrlList": [
+      "https://example.com/product.jpg"
+    ],
+    "keyword": "phone case",
+    "provider": "default",
+    "refVideoUrl": "https://example.com/reference-video.mp4",
+    "saleCountry": "US",
+    "targetLanguage": "en",
+    "duration": 15
+  },
+  "product-image-enhancement": {
+    "imageUrl": "https://example.com/product.jpg"
+  },
+  "image-text-editing": {
+    "imageUrl": "https://example.com/product.jpg",
+    "imageMaskUrl": "https://example.com/mask.png"
+  },
+  "smart-image-edit-manipulation-v3": {
+    "imageUrl": "https://example.com/product.jpg",
+    "prompt": "make the background pure white and keep the product unchanged",
+    "provider": "default",
+    "outputNum": 1,
+    "resolution": "1K",
+    "aspectRatio": "1:1",
+    "supplyType": "image",
+    "needOptimize": true,
+    "template": "default",
+    "source": "api",
+    "quality": "standard"
+  },
+  "smart-multi-image-editing-v3": {
+    "imageList": [
+      "https://example.com/product.jpg",
+      "https://example.com/model-reference.jpg"
+    ],
+    "provider": "default",
+    "prompt": "combine the product with the model in a clean studio scene",
+    "outputNum": 1,
+    "resolution": "1K",
+    "aspectRatio": "1:1",
+    "supplyType": "image",
+    "needOptimize": true,
+    "template": "default",
+    "quality": "standard"
+  },
+  "ai-video-reclone": {
+    "refVideoUrl": "https://example.com/reference-video.mp4",
+    "refImageList": [
+      "https://example.com/product.jpg"
+    ],
+    "videoType": "product",
+    "duration": 15,
+    "resolution": "720p",
+    "saleCountry": "US",
+    "targetLanguage": "en",
+    "ratio": "9:16",
+    "productInfo": {
+      "title": "Phone case",
+      "sellingPoints": [
+        "shockproof",
+        "slim"
+      ]
+    },
+    "prompt": "highlight the slim protective design"
+  },
+  "ai-product-marketing-image-set-v4": {
+    "imageList": [
+      "https://example.com/product.jpg"
+    ],
+    "provider": "default",
+    "sellerPoint": "Shockproof, slim, clear phone case",
+    "isExtractPrePoint": true,
+    "resolution": "1K",
+    "aspectRatio": "1:1",
+    "noText": false,
+    "brandKey": "brand",
+    "quality": "standard",
+    "aPlusNum": 1,
+    "aPlusProNum": 0,
+    "aPlusHasPhone": false,
+    "aPlusAspectRatio": "1:1",
+    "sellerTypeNum": 1,
+    "sceneTypeNum": 1,
+    "closeUpTypeNum": 1,
+    "closeUpWhiteTypeNum": 0,
+    "whiteBgTypeNum": 0,
+    "aPlusStyles": [
+      "clean"
+    ],
+    "pointStyles": [
+      "minimal"
+    ]
+  },
+  "ai-apparel-image-set-photography-v3": {
+    "imageList": [
+      "https://example.com/product.jpg"
+    ],
+    "provider": "default",
+    "sellerPoint": "Lightweight breathable summer dress",
+    "isExtractPrePoint": true,
+    "resolution": "1K",
+    "aspectRatio": "1:1",
+    "noText": false,
+    "brandKey": "brand",
+    "quality": "standard",
+    "modelImageUrl": "https://example.com/model-reference.jpg",
+    "sceneImageUrl": "https://example.com/scene.jpg",
+    "isExactScene": false,
+    "modelAndSceneInfo": {
+      "model": "female adult",
+      "scene": "studio"
+    },
+    "aPlusNum": 1,
+    "aPlusProNum": 0,
+    "aPlusHasPhone": false,
+    "aPlusAspectRatio": "1:1",
+    "modelTypeNum": 1,
+    "insTypeNum": 1,
+    "sellerTypeNum": 1
+  },
+  "ai-model-pose-generation": {
+    "imageUrl": "https://example.com/model-reference.jpg",
+    "prompt": "standing naturally with one hand holding the product",
+    "postureUrl": "https://example.com/pose.jpg",
+    "outputNum": 1
+  },
+  "sales-talking-video": {
+    "prompt": "Introduce this shockproof phone case in an upbeat tone.",
+    "imageList": [
+      "https://example.com/product.jpg"
+    ],
+    "videoType": "product",
+    "videoTime": 15,
+    "aspectRatio": "9:16",
+    "isPro": false,
+    "resolution": "720p"
+  },
+  "product-logo-detection-removal": {
+    "imageUrl": "https://example.com/product.jpg",
+    "brandName": "SampleBrand",
+    "isDetect": false
+  },
+  "one-click-image-recoloring-v2": {
+    "imageUrl": "https://example.com/product.jpg",
+    "colors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "colorSubject": "phone case"
+  }
+}

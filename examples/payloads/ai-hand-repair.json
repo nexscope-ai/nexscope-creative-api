@@ -1,0 +1,6 @@
+{
+  "imageUrl": "https://example.com/model-reference.jpg",
+  "personType": "model",
+  "maskUrl": "https://example.com/mask.png",
+  "outputNum": 1
+}

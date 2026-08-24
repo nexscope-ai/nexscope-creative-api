@@ -1,0 +1,11 @@
+{
+  "prompt": "Introduce this shockproof phone case in an upbeat tone.",
+  "imageList": [
+    "https://example.com/product.jpg"
+  ],
+  "videoType": "product",
+  "videoTime": 15,
+  "aspectRatio": "9:16",
+  "isPro": false,
+  "resolution": "720p"
+}

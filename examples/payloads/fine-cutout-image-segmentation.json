@@ -1,0 +1,12 @@
+{
+  "imageUrl": "https://example.com/product.jpg",
+  "pointList": [
+    {
+      "x": 120,
+      "y": 180,
+      "isSelect": true
+    }
+  ],
+  "scoreUrl": "https://example.com/score.png",
+  "featureUrl": "https://example.com/feature.bin"
+}

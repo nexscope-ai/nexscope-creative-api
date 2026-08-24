@@ -1,0 +1,8 @@
+{
+  "imageUrl": "https://example.com/product.jpg",
+  "colors": [
+    "#000000",
+    "#FFFFFF"
+  ],
+  "colorSubject": "phone case"
+}

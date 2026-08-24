@@ -1,0 +1,6 @@
+{
+  "imageUrl": "https://example.com/model-reference.jpg",
+  "prompt": "standing naturally with one hand holding the product",
+  "postureUrl": "https://example.com/pose.jpg",
+  "outputNum": 1
+}

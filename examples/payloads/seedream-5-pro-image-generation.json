@@ -1,0 +1,11 @@
+{
+  "imageUrls": [
+    "https://example.com/product.jpg"
+  ],
+  "prompt": "Keep the product consistent and generate a clean white-background ecommerce hero image.",
+  "outputNum": 1,
+  "extraParams": {
+    "resolution": "1K",
+    "aspectRatio": "1:1"
+  }
+}

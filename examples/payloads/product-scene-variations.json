@@ -1,0 +1,10 @@
+{
+  "imageUrl": "https://example.com/product.jpg",
+  "segImageUrl": "https://example.com/mask.png",
+  "strength": 0.65,
+  "prompt": "modern kitchen countertop",
+  "imageOutputWidth": 1024,
+  "imageOutputHeight": 1024,
+  "provider": "default",
+  "outputNum": 1
+}

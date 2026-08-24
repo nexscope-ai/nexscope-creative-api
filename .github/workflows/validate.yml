@@ -1,0 +1,35 @@
+name: Validate examples
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate repository
+        run: python3 scripts/validate_repository.py
+      - name: Check Python
+        run: python3 -m py_compile examples/python/run.py scripts/validate_repository.py
+      - name: Check JavaScript
+        run: node --check examples/javascript/run.mjs
+      - name: Check shell
+        run: bash -n examples/curl/run.sh
+      - name: Dry-run example clients
+        run: |
+          python3 examples/python/run.py background-remover examples/payloads/background-remover.json --dry-run
+          node examples/javascript/run.mjs banana-2-image-generation examples/payloads/banana-2-image-generation.json --dry-run
+          bash examples/curl/run.sh seedance-2-5-video-generation examples/payloads/seedance-2-5-video-generation.json --dry-run

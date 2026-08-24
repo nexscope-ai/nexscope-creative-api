@@ -1,0 +1,12 @@
+{
+  "type": "product",
+  "imageUrlList": [
+    "https://example.com/product.jpg"
+  ],
+  "keyword": "phone case",
+  "provider": "default",
+  "refVideoUrl": "https://example.com/reference-video.mp4",
+  "saleCountry": "US",
+  "targetLanguage": "en",
+  "duration": 15
+}

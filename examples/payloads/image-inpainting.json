@@ -1,0 +1,6 @@
+{
+  "imageUrl": "https://example.com/product.jpg",
+  "prompt": "remove scratches and keep the product realistic",
+  "maskUrl": "https://example.com/mask.png",
+  "outputNum": 1
+}

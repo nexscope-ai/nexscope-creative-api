@@ -1,0 +1,1743 @@
+{
+  "snapshotDate": "2026-08-24",
+  "source": "https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative",
+  "count": 51,
+  "categories": [
+    {
+      "slug": "image-generation-models",
+      "name": "Image Generation Models",
+      "count": 9
+    },
+    {
+      "slug": "video-generation-models",
+      "name": "Video Generation Models",
+      "count": 9
+    },
+    {
+      "slug": "multimodal-ai",
+      "name": "Multimodal AI",
+      "count": 33
+    }
+  ],
+  "apis": [
+    {
+      "slug": "banana-image-generation",
+      "name": "Nano Banana Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate ecommerce images with the fixed Nano Banana model from reference images and a prompt, with documented task-result and MCP workflows.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/banana-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/banana-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "banana-pro-image-generation",
+      "name": "Nano Banana Pro Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate higher-resolution ecommerce images with the fixed Nano Banana Pro model, reference images, prompts, and asynchronous task results.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-pro-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/banana-pro-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/banana-pro-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-pro-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "banana-2-image-generation",
+      "name": "Nano Banana 2 Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate ecommerce images with the fixed Nano Banana 2 model from reference assets and prompts, with documented asynchronous result retrieval.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-2-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/banana-2-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/banana-2-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-2-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "banana-2-lite-image-generation",
+      "name": "Nano Banana 2 Lite Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate ecommerce images with the fixed Nano Banana 2 Lite model from reference assets and prompts, then retrieve completed task results.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-2-lite-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/banana-2-lite-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/banana-2-lite-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/banana-2-lite-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "wan-2-7-image-generation",
+      "name": "Wan 2.7 Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate ecommerce images with the fixed Wan 2.7 model using reference images and prompts, with asynchronous task-result retrieval.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/wan-2-7-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/wan-2-7-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/wan-2-7-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/wan-2-7-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "seedream-5-image-generation",
+      "name": "Seedream 5 Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate ecommerce images with the fixed Seedream 5 model using references and prompts, with API-key authentication and task results.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedream-5-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/seedream-5-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/seedream-5-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedream-5-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "seedream-5-pro-image-generation",
+      "name": "Seedream 5 Pro Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate ecommerce images with the fixed Seedream 5 Pro model at supported resolutions, then retrieve Nexscope-hosted task outputs.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedream-5-pro-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/seedream-5-pro-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/seedream-5-pro-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedream-5-pro-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "gpt-image-2-generation",
+      "name": "GPT Image 2 Generation",
+      "category": "image-generation-models",
+      "summary": "Generate ecommerce images with the fixed GPT Image 2 model, selectable quality and resolution, and asynchronous task results.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/gpt-image-2-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/gpt-image-2-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/gpt-image-2-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/gpt-image-2-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "ai-draw-edit-image-generation",
+      "name": "AI Draw Edit Image Generation",
+      "category": "image-generation-models",
+      "summary": "Generate or edit ecommerce images with the fixed AI Draw Edit model, reference assets, prompts, and asynchronous Nexscope task-result retrieval.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-draw-edit-image-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-draw-edit-image-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-draw-edit-image-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-draw-edit-image-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrls",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": 20971520,
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "seedance-2-0-video-generation",
+      "name": "Seedance 2.0 Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate ecommerce videos with Seedance 2.0 from a primary image or multi-image references, then retrieve completed Nexscope-hosted task results.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-0-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/seedance-2-0-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/seedance-2-0-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-0-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        },
+        {
+          "fieldName": "video",
+          "mediaKind": "video",
+          "acceptedContentTypes": [
+            "video/mp4",
+            "video/webm"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 5
+        }
+      ]
+    },
+    {
+      "slug": "seedance-2-0-fast-video-generation",
+      "name": "Seedance 2.0 Fast Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate ecommerce videos faster with Seedance 2.0 Fast using primary or multi-image references, then retrieve the completed Nexscope-hosted result.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-0-fast-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/seedance-2-0-fast-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/seedance-2-0-fast-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-0-fast-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        },
+        {
+          "fieldName": "video",
+          "mediaKind": "video",
+          "acceptedContentTypes": [
+            "video/mp4",
+            "video/webm"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 5
+        }
+      ]
+    },
+    {
+      "slug": "seedance-2-0-mini-video-generation",
+      "name": "Seedance 2.0 Mini Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate compact ecommerce videos with Seedance 2.0 Mini from primary or multi-image references and retrieve the completed Nexscope-hosted result.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-0-mini-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/seedance-2-0-mini-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/seedance-2-0-mini-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-0-mini-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        },
+        {
+          "fieldName": "video",
+          "mediaKind": "video",
+          "acceptedContentTypes": [
+            "video/mp4",
+            "video/webm"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 5
+        }
+      ]
+    },
+    {
+      "slug": "seedance-2-5-video-generation",
+      "name": "Seedance 2.5 Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate ecommerce videos with Seedance 2.5 from primary or multi-image references, including up to 30 images and supported 30-second outputs.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-5-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/seedance-2-5-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/seedance-2-5-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/seedance-2-5-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": 20971520,
+          "maxFiles": 30
+        }
+      ]
+    },
+    {
+      "slug": "kling-2-6-video-generation",
+      "name": "Kling 2.6 Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate ecommerce videos with Kling 2.6 using first-frame, first-and-last-frame, or multi-image references and retrieve task results.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/kling-2-6-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/kling-2-6-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/kling-2-6-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/kling-2-6-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        },
+        {
+          "fieldName": "lastFrameImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "kling-3-omni-video-generation",
+      "name": "Kling 3 Omni Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate ecommerce videos with Kling 3 Omni from first-and-last-frame or multi-image references and retrieve completed Nexscope task outputs.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/kling-3-omni-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/kling-3-omni-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/kling-3-omni-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/kling-3-omni-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "wan-2-6-video-generation",
+      "name": "Wan 2.6 Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate ecommerce videos with Wan 2.6 from a required primary image, supported duration and resolution settings, and single or multi camera control.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/wan-2-6-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/wan-2-6-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/wan-2-6-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/wan-2-6-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "hailuo-2-3-video-generation",
+      "name": "Hailuo 2.3 Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate adaptive-aspect-ratio ecommerce videos with Hailuo 2.3 from a required primary image at supported durations and resolutions.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/hailuo-2-3-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/hailuo-2-3-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/hailuo-2-3-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/hailuo-2-3-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "happy-horse-2-video-generation",
+      "name": "Happy Horse 2 Video Generation",
+      "category": "video-generation-models",
+      "summary": "Generate ecommerce videos with Happy Horse 2 from one to nine required reference images, then retrieve the completed Nexscope-hosted result.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/happy-horse-2-video-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/happy-horse-2-video-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/happy-horse-2-video-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/happy-horse-2-video-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "ai-model-swap",
+      "name": "AI Model Swap API",
+      "category": "multimodal-ai",
+      "summary": "Place an ecommerce product image onto a target model.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-swap/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-model-swap?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-model-swap.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-swap/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "modelHeadImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageSegUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "sceneImgUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "ai-model-swap-2-0",
+      "name": "AI Model Swap API 2.0",
+      "category": "multimodal-ai",
+      "summary": "Swap a product image onto a fixed model reference with the version 2.0 workflow.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-swap-2-0/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-model-swap-2-0?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-model-swap-2-0.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-swap-2-0/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "modelImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageSegUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "sceneImgUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "ai-model-scene-background-replacement",
+      "name": "AI Model Scene & Background Replacement API",
+      "category": "multimodal-ai",
+      "summary": "Place a model image into a new scene or background.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-scene-background-replacement/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-model-scene-background-replacement?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-model-scene-background-replacement.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-scene-background-replacement/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "sceneImgUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageSegUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "ai-clothes-changer-for-tops-bottoms",
+      "name": "AI Clothes Changer API for Tops & Bottoms",
+      "category": "multimodal-ai",
+      "summary": "Generate virtual try-on images for separate upper and lower garments.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-clothes-changer-for-tops-bottoms/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-clothes-changer-for-tops-bottoms?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-clothes-changer-for-tops-bottoms.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-clothes-changer-for-tops-bottoms/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "modelImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "upperOriginUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "downOriginUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "upperImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "downImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "modelMaskImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "ai-suit-virtual-try-on",
+      "name": "AI Suit Virtual Try-On API",
+      "category": "multimodal-ai",
+      "summary": "Generate virtual try-on images for one-piece outfits.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-suit-virtual-try-on/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-suit-virtual-try-on?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-suit-virtual-try-on.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-suit-virtual-try-on/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "suitOriginUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "modelImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "suitImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "modelMaskImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "virtual-try-on",
+      "name": "Virtual Try-On API",
+      "category": "multimodal-ai",
+      "summary": "Place a product naturally onto a person or model image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/virtual-try-on/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/virtual-try-on?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/virtual-try-on.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/virtual-try-on/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "targetOriginUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "targetMaskUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "product-replacement",
+      "name": "Product Replacement API",
+      "category": "multimodal-ai",
+      "summary": "Replace a selected product region in an ecommerce image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-replacement/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/product-replacement?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/product-replacement.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-replacement/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "targetOriginUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "sourceImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "targetImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "product-scene-variations",
+      "name": "Product Scene Variations API",
+      "category": "multimodal-ai",
+      "summary": "Create multiple product-scene variations from an input image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-scene-variations/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/product-scene-variations?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/product-scene-variations.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-scene-variations/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "segImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "ai-background-generator",
+      "name": "AI Background Generator API",
+      "category": "multimodal-ai",
+      "summary": "Generate an ecommerce scene image from a text prompt.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-background-generator/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-background-generator?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-background-generator.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-background-generator/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "similar-image-variations",
+      "name": "Similar Image Variations API",
+      "category": "multimodal-ai",
+      "summary": "Create visually similar image variations from an input image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/similar-image-variations/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/similar-image-variations?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/similar-image-variations.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/similar-image-variations/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "background-remover",
+      "name": "Background Remover API",
+      "category": "multimodal-ai",
+      "summary": "Automatically remove an image background for clean product cutouts.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/background-remover/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/background-remover?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/background-remover.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/background-remover/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "fine-cutout-image-segmentation",
+      "name": "Fine Cutout Image Segmentation API",
+      "category": "multimodal-ai",
+      "summary": "Create a precision image cutout and return the completed result.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/fine-cutout-image-segmentation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/fine-cutout-image-segmentation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/fine-cutout-image-segmentation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/fine-cutout-image-segmentation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "image-upscale",
+      "name": "Image Upscale API",
+      "category": "multimodal-ai",
+      "summary": "Upscale and enhance image resolution for clearer ecommerce visuals.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-upscale/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/image-upscale?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/image-upscale.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-upscale/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "smart-image-outpainting",
+      "name": "Smart Image Outpainting API",
+      "category": "multimodal-ai",
+      "summary": "Expand an image canvas with AI-generated surrounding content.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/smart-image-outpainting/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/smart-image-outpainting?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/smart-image-outpainting.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/smart-image-outpainting/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "image-translation",
+      "name": "Image Translation API",
+      "category": "multimodal-ai",
+      "summary": "Translate text contained inside an image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-translation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/image-translation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/image-translation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-translation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "ai-hand-repair",
+      "name": "AI Hand Repair API",
+      "category": "multimodal-ai",
+      "summary": "Repair distorted or malformed hands in an image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-hand-repair/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-hand-repair?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-hand-repair.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-hand-repair/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "maskUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "image-inpainting",
+      "name": "Image Inpainting API",
+      "category": "multimodal-ai",
+      "summary": "Redraw a masked area of an image with AI inpainting.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-inpainting/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/image-inpainting?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/image-inpainting.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-inpainting/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "maskUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "print-pattern-extraction",
+      "name": "Print & Pattern Extraction API",
+      "category": "multimodal-ai",
+      "summary": "Extract printed artwork or patterns from an input image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/print-pattern-extraction/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/print-pattern-extraction?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/print-pattern-extraction.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/print-pattern-extraction/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "object-eraser-image-object-removal",
+      "name": "Object Eraser & Image Object Removal API",
+      "category": "multimodal-ai",
+      "summary": "Remove masked objects from an image and reconstruct the cleared area.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/object-eraser-image-object-removal/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/object-eraser-image-object-removal?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/object-eraser-image-object-removal.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/object-eraser-image-object-removal/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "maskImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "jewelry-text-design",
+      "name": "Jewelry Text Design API",
+      "category": "multimodal-ai",
+      "summary": "Generate linked text designs for jewelry or accessory products.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/jewelry-text-design/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/jewelry-text-design?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/jewelry-text-design.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/jewelry-text-design/tasks/{taskId}"
+    },
+    {
+      "slug": "handheld-product-mockup",
+      "name": "Handheld Product Mockup API",
+      "category": "multimodal-ai",
+      "summary": "Place a product naturally into a handheld scene or mockup.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/handheld-product-mockup/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/handheld-product-mockup?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/handheld-product-mockup.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/handheld-product-mockup/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "targetOriginUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "targetMaskUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "image-captioning",
+      "name": "Image Captioning API",
+      "category": "multimodal-ai",
+      "summary": "Extract a reusable text prompt from an input image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-captioning/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/image-captioning?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/image-captioning.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-captioning/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrlList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        },
+        {
+          "fieldName": "refVideoUrl",
+          "mediaKind": "video",
+          "acceptedContentTypes": [
+            "video/mp4",
+            "video/webm"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "product-image-enhancement",
+      "name": "Product Image Enhancement API",
+      "category": "multimodal-ai",
+      "summary": "Retouch and enhance a product image for cleaner ecommerce presentation.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-image-enhancement/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/product-image-enhancement?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/product-image-enhancement.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-image-enhancement/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "image-text-editing",
+      "name": "Image Text Editing API",
+      "category": "multimodal-ai",
+      "summary": "Remove or edit text inside an image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-text-editing/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/image-text-editing?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/image-text-editing.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/image-text-editing/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "imageMaskUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "smart-image-edit-manipulation-v3",
+      "name": "Smart Image Edit & Manipulation API v3",
+      "category": "multimodal-ai",
+      "summary": "Edit and manipulate an image from a natural-language instruction prompt.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/smart-image-edit-manipulation-v3/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/smart-image-edit-manipulation-v3?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/smart-image-edit-manipulation-v3.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/smart-image-edit-manipulation-v3/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "smart-multi-image-editing-v3",
+      "name": "Smart Multi-Image Editing API v3",
+      "category": "multimodal-ai",
+      "summary": "Fuse and edit multiple images with a natural-language instruction prompt. Review authentication, request parameters, and response fields.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/smart-multi-image-editing-v3/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/smart-multi-image-editing-v3?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/smart-multi-image-editing-v3.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/smart-multi-image-editing-v3/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "ai-video-reclone",
+      "name": "AI Video Reclone API",
+      "category": "multimodal-ai",
+      "summary": "Recreate a product marketing video from reference assets.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-video-reclone/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-video-reclone?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-video-reclone.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-video-reclone/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "refVideoUrl",
+          "mediaKind": "video",
+          "acceptedContentTypes": [
+            "video/mp4",
+            "video/webm"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "refImageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "ai-product-marketing-image-set-v4",
+      "name": "AI Product Marketing Image Set API v4",
+      "category": "multimodal-ai",
+      "summary": "Generate coordinated product marketing image sets with the version 4 workflow. Review authentication, request parameters, and response fields.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-product-marketing-image-set-v4/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-product-marketing-image-set-v4?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-product-marketing-image-set-v4.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-product-marketing-image-set-v4/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "ai-apparel-image-set-photography-v3",
+      "name": "AI Apparel Image Set & Photography API v3",
+      "category": "multimodal-ai",
+      "summary": "Generate coordinated apparel marketing and product-photography image sets. Review authentication, request parameters, and response fields.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-apparel-image-set-photography-v3/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-apparel-image-set-photography-v3?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-apparel-image-set-photography-v3.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-apparel-image-set-photography-v3/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        },
+        {
+          "fieldName": "modelImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "sceneImageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "ai-model-pose-generation",
+      "name": "AI Model Pose Generation API",
+      "category": "multimodal-ai",
+      "summary": "Generate new pose variations from an existing model image.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-pose-generation/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/ai-model-pose-generation?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/ai-model-pose-generation.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/ai-model-pose-generation/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        },
+        {
+          "fieldName": "postureUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "sales-talking-video",
+      "name": "Sales Talking Video API",
+      "category": "multimodal-ai",
+      "summary": "Generate a talking sales video for ecommerce promotion.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/sales-talking-video/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/sales-talking-video?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/sales-talking-video.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/sales-talking-video/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageList",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 10
+        }
+      ]
+    },
+    {
+      "slug": "product-logo-detection-removal",
+      "name": "Product Logo Detection & Removal API",
+      "category": "multimodal-ai",
+      "summary": "Detect and remove logos from product images.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-logo-detection-removal/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/product-logo-detection-removal?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/product-logo-detection-removal.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/product-logo-detection-removal/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    },
+    {
+      "slug": "one-click-image-recoloring-v2",
+      "name": "One-Click Image Recoloring API v2",
+      "category": "multimodal-ai",
+      "summary": "Change product colors in an image with the version 2 workflow.",
+      "method": "POST",
+      "endpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/one-click-image-recoloring-v2/run",
+      "docsUrl": "https://www.nexscope.ai/api-docs/one-click-image-recoloring-v2?co-from=githubcreative",
+      "execution": "async",
+      "examplePayload": "../examples/payloads/one-click-image-recoloring-v2.json",
+      "taskResultEndpoint": "https://api.nexscope.ai/api/skill-api/v1/skills/one-click-image-recoloring-v2/tasks/{taskId}",
+      "assetUploadConstraints": [
+        {
+          "fieldName": "imageUrl",
+          "mediaKind": "image",
+          "acceptedContentTypes": [
+            "image/jpeg",
+            "image/png",
+            "image/webp"
+          ],
+          "maxFileSizeBytes": "20971520",
+          "maxFiles": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "videoTime": 8,
+  "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+  "resolution": "720P",
+  "imageUrl": "https://example.com/source-image.jpg",
+  "imageList": [
+    "https://example.com/product.jpg",
+    "https://example.com/ref-2.jpg"
+  ],
+  "video": [
+    "https://example.com/reference-video.mp4"
+  ],
+  "aspectRatio": "16:9"
+}

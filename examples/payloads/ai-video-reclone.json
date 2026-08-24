@@ -1,0 +1,20 @@
+{
+  "refVideoUrl": "https://example.com/reference-video.mp4",
+  "refImageList": [
+    "https://example.com/product.jpg"
+  ],
+  "videoType": "product",
+  "duration": 15,
+  "resolution": "720p",
+  "saleCountry": "US",
+  "targetLanguage": "en",
+  "ratio": "9:16",
+  "productInfo": {
+    "title": "Phone case",
+    "sellingPoints": [
+      "shockproof",
+      "slim"
+    ]
+  },
+  "prompt": "highlight the slim protective design"
+}

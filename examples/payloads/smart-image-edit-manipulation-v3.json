@@ -1,0 +1,13 @@
+{
+  "imageUrl": "https://example.com/product.jpg",
+  "prompt": "make the background pure white and keep the product unchanged",
+  "provider": "default",
+  "outputNum": 1,
+  "resolution": "1K",
+  "aspectRatio": "1:1",
+  "supplyType": "image",
+  "needOptimize": true,
+  "template": "default",
+  "source": "api",
+  "quality": "standard"
+}

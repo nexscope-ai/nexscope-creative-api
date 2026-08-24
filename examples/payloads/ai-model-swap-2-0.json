@@ -1,0 +1,10 @@
+{
+  "imageUrl": "https://example.com/source-image.jpg",
+  "modelImageUrl": "https://example.com/model-reference.jpg",
+  "outputNum": 1,
+  "imageSegUrl": "https://example.com/mask.png",
+  "sceneImgUrl": "https://example.com/scene.jpg",
+  "sceneStrength": 0.6,
+  "genOriRes": true,
+  "realModel": true
+}

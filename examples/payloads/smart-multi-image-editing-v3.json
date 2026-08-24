@@ -1,0 +1,15 @@
+{
+  "imageList": [
+    "https://example.com/product.jpg",
+    "https://example.com/model-reference.jpg"
+  ],
+  "provider": "default",
+  "prompt": "combine the product with the model in a clean studio scene",
+  "outputNum": 1,
+  "resolution": "1K",
+  "aspectRatio": "1:1",
+  "supplyType": "image",
+  "needOptimize": true,
+  "template": "default",
+  "quality": "standard"
+}

@@ -1,0 +1,10 @@
+{
+  "imageUrl": "https://example.com/model-reference.jpg",
+  "sceneImgUrl": "https://example.com/scene.jpg",
+  "scenePrompt": "bright studio showroom",
+  "imageSegUrl": "https://example.com/mask.png",
+  "sceneStrength": 0.7,
+  "genOriRes": true,
+  "realModel": true,
+  "outputNum": 1
+}

@@ -1,0 +1,28 @@
+{
+  "imageList": [
+    "https://example.com/product.jpg"
+  ],
+  "provider": "default",
+  "sellerPoint": "Shockproof, slim, clear phone case",
+  "isExtractPrePoint": true,
+  "resolution": "1K",
+  "aspectRatio": "1:1",
+  "noText": false,
+  "brandKey": "brand",
+  "quality": "standard",
+  "aPlusNum": 1,
+  "aPlusProNum": 0,
+  "aPlusHasPhone": false,
+  "aPlusAspectRatio": "1:1",
+  "sellerTypeNum": 1,
+  "sceneTypeNum": 1,
+  "closeUpTypeNum": 1,
+  "closeUpWhiteTypeNum": 0,
+  "whiteBgTypeNum": 0,
+  "aPlusStyles": [
+    "clean"
+  ],
+  "pointStyles": [
+    "minimal"
+  ]
+}

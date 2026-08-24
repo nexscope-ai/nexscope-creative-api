@@ -1,0 +1,9 @@
+{
+  "videoTime": 5,
+  "prompt": "Create a clean ecommerce product video with gentle camera movement and consistent product details.",
+  "imageList": [
+    "https://example.com/product.jpg"
+  ],
+  "resolution": "480p",
+  "aspectRatio": "9:16"
+}

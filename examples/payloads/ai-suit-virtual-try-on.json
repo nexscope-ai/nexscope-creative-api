@@ -1,0 +1,7 @@
+{
+  "suitOriginUrl": "https://example.com/suit.jpg",
+  "modelImageUrl": "https://example.com/model-reference.jpg",
+  "suitImageUrl": "https://example.com/suit-mask.png",
+  "modelMaskImageUrl": "https://example.com/mask.png",
+  "outputNum": 1
+}

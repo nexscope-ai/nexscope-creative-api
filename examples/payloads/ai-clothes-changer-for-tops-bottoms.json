@@ -1,0 +1,9 @@
+{
+  "modelImageUrl": "https://example.com/model-reference.jpg",
+  "upperOriginUrl": "https://example.com/top.jpg",
+  "downOriginUrl": "https://example.com/bottom.jpg",
+  "upperImageUrl": "https://example.com/top-mask.png",
+  "downImageUrl": "https://example.com/bottom-mask.png",
+  "modelMaskImageUrl": "https://example.com/mask.png",
+  "outputNum": 1
+}

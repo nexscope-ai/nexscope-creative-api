@@ -1,0 +1,11 @@
+{
+  "videoTime": 10,
+  "prompt": "Keep the product consistent while the camera slowly orbits and highlights material details.",
+  "resolution": "1080P",
+  "imageUrl": "https://example.com/source-image.jpg",
+  "imageList": [
+    "https://example.com/product.jpg",
+    "https://example.com/ref-2.jpg"
+  ],
+  "aspectRatio": "16:9"
+}

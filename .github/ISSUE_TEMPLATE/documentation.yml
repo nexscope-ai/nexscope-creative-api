@@ -1,0 +1,25 @@
+name: Documentation correction
+description: Report an outdated catalog entry, broken link, or unclear example.
+title: "[Docs]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: Use the individual Nexscope API page as the current source of truth. Do not include secrets or customer data.
+  - type: input
+    id: page
+    attributes:
+      label: Repository file or API page
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public supporting evidence
+      description: Add a public official documentation link when available.

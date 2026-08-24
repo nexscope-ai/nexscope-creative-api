@@ -1,0 +1,10 @@
+{
+  "imageUrl": "https://example.com/source-image.jpg",
+  "targetOriginUrl": "https://example.com/product.jpg",
+  "sourceImageUrl": "https://example.com/source-product.jpg",
+  "targetImageUrl": "https://example.com/target-product.png",
+  "denoiseStrength": 0.55,
+  "imageOutputWidth": 1024,
+  "imageOutputHeight": 1024,
+  "outputNum": 1
+}

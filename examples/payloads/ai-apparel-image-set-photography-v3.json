@@ -1,0 +1,27 @@
+{
+  "imageList": [
+    "https://example.com/product.jpg"
+  ],
+  "provider": "default",
+  "sellerPoint": "Lightweight breathable summer dress",
+  "isExtractPrePoint": true,
+  "resolution": "1K",
+  "aspectRatio": "1:1",
+  "noText": false,
+  "brandKey": "brand",
+  "quality": "standard",
+  "modelImageUrl": "https://example.com/model-reference.jpg",
+  "sceneImageUrl": "https://example.com/scene.jpg",
+  "isExactScene": false,
+  "modelAndSceneInfo": {
+    "model": "female adult",
+    "scene": "studio"
+  },
+  "aPlusNum": 1,
+  "aPlusProNum": 0,
+  "aPlusHasPhone": false,
+  "aPlusAspectRatio": "1:1",
+  "modelTypeNum": 1,
+  "insTypeNum": 1,
+  "sellerTypeNum": 1
+}

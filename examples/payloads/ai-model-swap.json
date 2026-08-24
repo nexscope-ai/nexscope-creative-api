@@ -1,0 +1,13 @@
+{
+  "imageUrl": "https://example.com/source-image.jpg",
+  "modelHeadImageUrl": "https://example.com/model-reference.jpg",
+  "imageSegUrl": "https://example.com/mask.png",
+  "sceneImgUrl": "https://example.com/scene.jpg",
+  "sceneStrength": 0.6,
+  "modelPrompt": "natural studio model",
+  "customPrompt": "clean ecommerce catalog photo",
+  "customNegPrompt": "blur, distorted hands",
+  "genOriRes": true,
+  "realModel": true,
+  "outputNum": 1
+}
