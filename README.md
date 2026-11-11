@@ -8,7 +8,9 @@
 [![Creative API docs](https://img.shields.io/badge/Creative_API-docs-7c3aed)](https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-[Get an API key](https://www.nexscope.ai/seller/api-access?co-from=githubcreative) · [Browse all 51 Creative APIs](./api-catalog/README.md) · [Open the Creative API directory](https://www.nexscope.ai/apis/creatives?co-from=githubcreative)
+[Get an API key](https://www.nexscope.ai/seller/api-access?co-from=githubcreative) · [Browse the 51-API snapshot](./api-catalog/README.md) · [Open the Creative API directory](https://www.nexscope.ai/apis/creatives?co-from=githubcreative)
+
+[Explore MCP tools →](https://www.nexscope.ai/mcp?co-from=githubcreative&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=nexscope-creative-api_readme_mcp) · [View API docs →](https://www.nexscope.ai/api-docs?co-from=githubcreative&utm_source=github&utm_medium=referral&utm_campaign=github_mcp_launch&utm_content=nexscope-creative-api_readme_api)
 
 </div>
 
@@ -65,6 +67,8 @@ Each client makes one request and does not retry automatically. Use `--dry-run` 
 
 ## API coverage
 
+**Documentation availability checked November 11, 2026:** The historical public docs for `seedream-5-image-generation` and `ai-draw-edit-image-generation` returned HTTP 404. Their entries and payloads are retained as snapshot references, not verified live integrations. Browse the [current Creative API catalog](https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative) for documented options; a missing documentation page does not establish whether an execution endpoint is available.
+
 The current snapshot contains 9 image-generation models, 9 video-generation models, and 33 multimodal creative APIs. Each linked API page is the source of truth for current request fields, response fields, supported options, file limits, credit behavior, and availability.
 
 ### Image Generation Models (9)
@@ -76,10 +80,10 @@ The current snapshot contains 9 image-generation models, 9 video-generation mode
 | [Nano Banana 2 Image Generation](https://www.nexscope.ai/api-docs/banana-2-image-generation?co-from=githubcreative) | Generate ecommerce images with the fixed Nano Banana 2 model from reference assets and prompts, with documented asynchronous result retrieval. |
 | [Nano Banana 2 Lite Image Generation](https://www.nexscope.ai/api-docs/banana-2-lite-image-generation?co-from=githubcreative) | Generate ecommerce images with the fixed Nano Banana 2 Lite model from reference assets and prompts, then retrieve completed task results. |
 | [Wan 2.7 Image Generation](https://www.nexscope.ai/api-docs/wan-2-7-image-generation?co-from=githubcreative) | Generate ecommerce images with the fixed Wan 2.7 model using reference images and prompts, with asynchronous task-result retrieval. |
-| [Seedream 5 Image Generation](https://www.nexscope.ai/api-docs/seedream-5-image-generation?co-from=githubcreative) | Generate ecommerce images with the fixed Seedream 5 model using references and prompts, with API-key authentication and task results. |
+| [Seedream 5 Image Generation — historical snapshot; browse current catalog](https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative) | Generate ecommerce images with the fixed Seedream 5 model using references and prompts, with API-key authentication and task results. |
 | [Seedream 5 Pro Image Generation](https://www.nexscope.ai/api-docs/seedream-5-pro-image-generation?co-from=githubcreative) | Generate ecommerce images with the fixed Seedream 5 Pro model at supported resolutions, then retrieve Nexscope-hosted task outputs. |
 | [GPT Image 2 Generation](https://www.nexscope.ai/api-docs/gpt-image-2-generation?co-from=githubcreative) | Generate ecommerce images with the fixed GPT Image 2 model, selectable quality and resolution, and asynchronous task results. |
-| [AI Draw Edit Image Generation](https://www.nexscope.ai/api-docs/ai-draw-edit-image-generation?co-from=githubcreative) | Generate or edit ecommerce images with the fixed AI Draw Edit model, reference assets, prompts, and asynchronous Nexscope task-result retrieval. |
+| [AI Draw Edit Image Generation — historical snapshot; browse current catalog](https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative) | Generate or edit ecommerce images with the fixed AI Draw Edit model, reference assets, prompts, and asynchronous Nexscope task-result retrieval. |
 
 ### Video Generation Models (9)
 
@@ -215,3 +219,7 @@ The documentation and example code in this repository are available under the [M
 ---
 
 Built by [Nexscope](https://www.nexscope.ai/?co-from=githubcreative) — ecommerce data-to-action and creative APIs for product images and videos.
+
+Historical documentation URL (404 on November 11, 2026): `https://www.nexscope.ai/api-docs/seedream-5-image-generation?co-from=githubcreative`.
+
+Historical documentation URL (404 on November 11, 2026): `https://www.nexscope.ai/api-docs/ai-draw-edit-image-generation?co-from=githubcreative`.

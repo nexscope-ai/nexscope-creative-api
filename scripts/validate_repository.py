@@ -135,7 +135,8 @@ def main() -> int:
         fail(f"Unexpected payload file: {slug}.json")
         errors += 1
 
-    if len(re.findall(r"^\| \[[^]]+\]\(https://www\.nexscope\.ai/api-docs/", readme, re.M)) != 51:
+    # Historical entries may link to the current catalog when their public docs are unavailable.
+    if len(re.findall(r"^\| \[[^]]+\]\(https://www\.nexscope\.ai/api-docs(?:/|\?)", readme, re.M)) != 51:
         fail("The root README must list all 51 API names and documentation links")
         errors += 1
 

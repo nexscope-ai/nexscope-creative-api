@@ -1,5 +1,7 @@
 # Creative API Catalog
 
+**Documentation availability checked November 11, 2026:** The historical public docs for `seedream-5-image-generation` and `ai-draw-edit-image-generation` returned HTTP 404. Their entries and payloads are retained as snapshot references, not verified live integrations. Browse the [current Creative API catalog](https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative) for documented options; a missing documentation page does not establish whether an execution endpoint is available.
+
 This directory lists the 51 Creative APIs in the repository snapshot dated `2026-08-24`. The machine-readable catalog is available in [`creative-apis.json`](./creative-apis.json).
 
 Use the individual API documentation page as the source of truth for current request fields, response fields, file limits, supported options, credits, and availability.
@@ -13,10 +15,10 @@ Use the individual API documentation page as the source of truth for current req
 | [Nano Banana 2 Image Generation](https://www.nexscope.ai/api-docs/banana-2-image-generation?co-from=githubcreative) | `banana-2-image-generation` | [`banana-2-image-generation.json`](../examples/payloads/banana-2-image-generation.json) |
 | [Nano Banana 2 Lite Image Generation](https://www.nexscope.ai/api-docs/banana-2-lite-image-generation?co-from=githubcreative) | `banana-2-lite-image-generation` | [`banana-2-lite-image-generation.json`](../examples/payloads/banana-2-lite-image-generation.json) |
 | [Wan 2.7 Image Generation](https://www.nexscope.ai/api-docs/wan-2-7-image-generation?co-from=githubcreative) | `wan-2-7-image-generation` | [`wan-2-7-image-generation.json`](../examples/payloads/wan-2-7-image-generation.json) |
-| [Seedream 5 Image Generation](https://www.nexscope.ai/api-docs/seedream-5-image-generation?co-from=githubcreative) | `seedream-5-image-generation` | [`seedream-5-image-generation.json`](../examples/payloads/seedream-5-image-generation.json) |
+| [Seedream 5 Image Generation — historical snapshot; browse current catalog](https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative) | `seedream-5-image-generation` | [`seedream-5-image-generation.json`](../examples/payloads/seedream-5-image-generation.json) |
 | [Seedream 5 Pro Image Generation](https://www.nexscope.ai/api-docs/seedream-5-pro-image-generation?co-from=githubcreative) | `seedream-5-pro-image-generation` | [`seedream-5-pro-image-generation.json`](../examples/payloads/seedream-5-pro-image-generation.json) |
 | [GPT Image 2 Generation](https://www.nexscope.ai/api-docs/gpt-image-2-generation?co-from=githubcreative) | `gpt-image-2-generation` | [`gpt-image-2-generation.json`](../examples/payloads/gpt-image-2-generation.json) |
-| [AI Draw Edit Image Generation](https://www.nexscope.ai/api-docs/ai-draw-edit-image-generation?co-from=githubcreative) | `ai-draw-edit-image-generation` | [`ai-draw-edit-image-generation.json`](../examples/payloads/ai-draw-edit-image-generation.json) |
+| [AI Draw Edit Image Generation — historical snapshot; browse current catalog](https://www.nexscope.ai/api-docs?tab=creative&co-from=githubcreative) | `ai-draw-edit-image-generation` | [`ai-draw-edit-image-generation.json`](../examples/payloads/ai-draw-edit-image-generation.json) |
 
 ## Video Generation Models (9)
 
@@ -78,3 +80,7 @@ GET  https://api.nexscope.ai/api/skill-api/v1/skills/{api-slug}/tasks/{taskId}
 ```
 
 Authenticate with `Authorization: Bearer YOUR_API_KEY` and `Content-Type: application/json`.
+
+Historical documentation URL (404 on November 11, 2026): `https://www.nexscope.ai/api-docs/seedream-5-image-generation?co-from=githubcreative`.
+
+Historical documentation URL (404 on November 11, 2026): `https://www.nexscope.ai/api-docs/ai-draw-edit-image-generation?co-from=githubcreative`.
